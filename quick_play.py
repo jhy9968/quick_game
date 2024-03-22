@@ -882,7 +882,7 @@ if __name__ == '__main__':
     save_dir = "./"
 
     # Parameters
-    max_iteration = 5
+    max_iteration = 100
 
     # Create simulation
     corridor_simulation = Q_RL(save_dir=save_dir)
@@ -892,11 +892,6 @@ if __name__ == '__main__':
     non_dir = subdir + "Transfer_entropy_p1_x0_p2_x0/"
     pos_dir = subdir + "Transfer_entropy_p1_x0_p2_x10/"
     neg_dir = subdir + "Transfer_entropy_p1_x0_p2_x-10/"
-
-    # subdir = "mix_train/"
-    # non_dir = subdir + "Mixed_training_p2_x0/"
-    # pos_dir = subdir + "Mixed_training_p2_x10/"
-    # neg_dir = subdir + "Mixed_training_p2_x-10/"
     dir4all3 = [non_dir, pos_dir, neg_dir]
 
     # Shuffle the order of the list
