@@ -17,6 +17,7 @@ pip install pygame
   python ./quick_play.py
   ```
   - This command will launch the game. I have disabled the wait time and all redundant key press, so you can play continously.
+  - You will play with each opponent for 100 rounds.
   - The terminal will display a "Done saving" message after you finish playing against an agent. The next agent will start immediately.
 - The results will be saved in the folder called log.
 
