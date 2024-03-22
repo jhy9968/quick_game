@@ -1,0 +1,15 @@
+Date & Time:		06-03-2024_00-39-03
+Seed:			61
+Corridor size:		(11, 5)
+Added TE reward:	1
+P1 TE reward scaling:	0
+P2 TE reward scaling:	10
+P1:			RL agent
+P1 objective:		Random
+P2:			RL agent
+P2 objective:		Random
+History(t-n):		5
+Maximum iteration:	30000
+Epsilon:		0
+Alpha:			0.8
+Gamma:			0.8
